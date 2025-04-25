@@ -1,0 +1,339 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  /* Navbar Custom */
+  /* Navbar Brand Styling */
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #FCA311 !important;
+  letter-spacing: 1px;
+}
+
+/* Navbar Link Styling */
+.nav-link {
+  color: #ffffff !important;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #FCA311 !important;
+  transform: scale(1.05);
+}
+
+/* Add subtle shadow for premium feel */
+.navbar {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+  /* carousal section */
+  .carousel-caption {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.85);
+    color: #fff;
+  }
+  
+  .text-shadow {
+    text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.7);
+  }
+  
+  .carousel-caption p {
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .carousel .btn-warning {
+    font-size: 1rem;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  }
+  /* About section */
+  #about h2 {
+    color: #14213D;
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+  
+  #about .btn-outline-dark {
+    border-width: 2px;
+    transition: 0.3s ease;
+  }
+  
+  #about .btn-outline-dark:hover {
+    background-color: #14213D;
+    color: #fff;
+  }
+  /* practice section */
+  #practice-areas h2 {
+    color: #14213D;
+    font-size: 2.25rem;
+    letter-spacing: 1px;
+  }
+  
+  #practice-areas .card {
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  #practice-areas .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+  }
+  
+  #practice-areas h5 {
+    margin-bottom: 0.75rem;
+    color: #14213D;
+  }
+  
+  #practice-areas p {
+    line-height: 1.4;
+  }
+ /* team section */
+  /* Team Profiles Cards */
+#team-profiles h2 {
+  font-size: 2.25rem;
+  letter-spacing: 1px;
+  color: #14213D;
+}
+
+.team-card {
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 32px rgba(0,0,0,0.1);
+}
+
+.team-card .card-img-top {
+  border: 4px solid #FCA311;
+}
+
+.team-card .card-title {
+  color: #14213D;
+}
+
+.team-card .card-subtitle {
+  color: #6c757d;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
+
+.team-card .card-text {
+  margin-top: 0.5rem;
+}
+
+.team-card .card-footer a {
+  color: #14213D;
+  font-size: 1.2rem;
+  transition: color 0.2s ease;
+}
+
+.team-card .card-footer a:hover {
+  color: #FCA311;
+}
+ /* client section */
+/* === Why Clients Trust Us Section Styles === */
+
+#trust {
+  background-color: #f1f3f5; /* Light gray background for contrast */
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+#trust h2 {
+  color: #14213D; /* Deep navy */
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: 3rem;
+}
+
+/* Trust Cards */
+.trust-card {
+  background-color: #ffffff; /* Clean white cards */
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+.trust-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* Icon Wrapper */
+.icon-wrapper {
+  width: 64px;
+  height: 64px;
+  background-color: #14213D; /* Navy background for icons */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-wrapper i {
+  font-size: 1.5rem;
+  color: #FCA311; /* Elegant gold icon color */
+}
+
+/* Card Headings */
+.trust-card h5 {
+  font-size: 1.25rem;
+  color: #14213D; /* Navy heading */
+  margin-bottom: 0.75rem;
+}
+
+/* Card Text */
+.trust-card p {
+  font-size: 0.95rem;
+  color: #6c757d; /* Soft gray for body text */
+  line-height: 1.6;
+}
+
+/* Achievemnt */
+/* Color Variables */
+:root {
+  --color-navy:  #14213D;
+  --color-gold:  #FCA311;
+  --color-white: #FFFFFF;
+  --color-muted: #6c757d;
+}
+
+/* Section Title */
+#story h2 {
+  font-size: 2.5rem;
+  color: var(--color-navy);
+  letter-spacing: 0.5px;
+}
+#story .text-gold {
+  color: var(--color-gold);
+}
+
+/* Subtitle */
+#story p.text-muted {
+  font-size: 1rem;
+}
+
+/* Circular images */
+.story-img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border: 4px solid var(--color-gold);
+}
+
+/* Headings & text */
+#story h5 {
+  color: var(--color-navy);
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+}
+#story p.small {
+  color: var(--color-muted);
+  line-height: 1.6;
+}
+
+/* Column spacing */
+#story .col {
+  padding-top: 1rem;
+}
+/* video */
+/* Hero Video Section */
+#hero-video {
+  height: 80vh;
+  min-height: 500px;
+  overflow: hidden;
+}
+
+#hero-video video {
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+
+#hero-video .overlay,
+#hero-video .video-background::after {
+  z-index: 2;
+}
+
+#hero-video .container {
+  z-index: 3;
+}
+
+/* Blockquote Styling */
+#hero-video blockquote {
+  border: none;
+  padding: 0;
+  color: var(--color-white);
+}
+
+#hero-video .blockquote p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+#hero-video .blockquote-footer {
+  color: var(--color-gold);
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+/* Carousel controls color tweak */
+#quotesCarousel .carousel-control-prev-icon,
+#quotesCarousel .carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+  /* contact */
+  
+#contact h2 {
+  letter-spacing: 0.5px;
+}
+
+#contact p a {
+  font-weight: bold;
+}
+
+#contact .card {
+  border-radius: 12px;
+}
+
+#contact .btn-warning {
+  border-radius: 50px;
+  letter-spacing: 0.5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#contact .btn-warning:hover {
+  background-color: #d18b00;
+  transform: translateY(-2px);
+}
+
+/* Office Info Icons */
+#contact .bi {
+  vertical-align: -2px;
+}
+
+  /* Footer */
+  footer {
+    background-color: #14213D;
+    color: #fff;
+  }
+  
