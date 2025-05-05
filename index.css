@@ -150,13 +150,13 @@
 /* === Why Clients Trust Us Section Styles === */
 
 #trust {
-  background-color: #f1f3f5; /* Light gray background for contrast */
+  background-color: #f1f3f5;  
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
 #trust h2 {
-  color: #14213D; /* Deep navy */
+  color: #14213D;  
   font-size: 2.5rem;
   font-weight: 700;
   letter-spacing: 0.5px;
@@ -165,7 +165,7 @@
 
 /* Trust Cards */
 .trust-card {
-  background-color: #ffffff; /* Clean white cards */
+  background-color: #ffffff;  
   border-radius: 12px;
   padding: 2rem 1.5rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
@@ -181,7 +181,7 @@
 .icon-wrapper {
   width: 64px;
   height: 64px;
-  background-color: #14213D; /* Navy background for icons */
+  background-color: #14213D; 
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -189,20 +189,20 @@
 }
 .icon-wrapper i {
   font-size: 1.5rem;
-  color: #FCA311; /* Elegant gold icon color */
+  color: #FCA311;  
 }
 
 /* Card Headings */
 .trust-card h5 {
   font-size: 1.25rem;
-  color: #14213D; /* Navy heading */
+  color: #14213D; 
   margin-bottom: 0.75rem;
 }
 
 /* Card Text */
 .trust-card p {
   font-size: 0.95rem;
-  color: #6c757d; /* Soft gray for body text */
+  color: #6c757d;  
   line-height: 1.6;
 }
 
