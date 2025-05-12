@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+     <!-- Font Awesome for Star Icon -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+<!-- css link -->
+<link href="./main.css" rel="stylesheet">
+</head>
+<body>
+ <!-- Navbar Section -->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow-sm" style="background-color: #0e0e0e;">
+    <div class="container">
+      <a class="navbar-brand fs-3 fw-bold" href="#">
+        <span style="color: #FCA311;">LAWYER</span><span class="text-white">FIRM</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav text-uppercase fw-semibold">
+          <li class="nav-item">
+            <a class="nav-link px-3" href="#about">About <i class="fas fa-star" style="font-size: 0.8rem; color: #FCA311;"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" href="#services">Services <i class="fas fa-star" style="font-size: 0.8rem; color: #FCA311;"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" href="#team">Team <i class="fas fa-star" style="font-size: 0.8rem; color: #FCA311;"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" href="#contact" style="border: 2px solid #FCA311; border-radius: 25px; padding: 5px 20px;">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- carousel section -->
+   <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+  <div class="carousel-inner">
+    <!-- Slide 1 -->
+    <div class="carousel-item active position-relative">
+      <img src="https://img.freepik.com/premium-photo/low-key-filter-wooden-judge-s-gavel-law-book-golden-scale-wood-background_34259-440.jpg?semt=ais_hybrid&w=740" class="d-block w-100 hero-img">
+      <div class="overlay"></div> <!-- Overlay added here -->
+      <div class="carousel-caption d-flex flex-column justify-content-center align-items-center text-center h-100">
+        <h1 class="display-3 fw-bold text-uppercase hero-title">You Deserve the<br><span class="text-highlight">Best Defense</span></h1>
+        <p class="lead hero-subtext">Top-tier legal advocates with unmatched courtroom expertise.</p>
+        <a href="#contact" class="btn btn-warning btn-lg px-5 py-3 hero-btn">FREE CONSULTATION</a>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="carousel-item position-relative">
+      <img src="https://t4.ftcdn.net/jpg/04/96/55/43/360_F_496554310_1squir9vawoqmr5kN1AuLvh2zFExAxo1.jpg" class="d-block w-100 hero-img">
+      <div class="overlay"></div> <!-- Overlay added here -->
+      <div class="carousel-caption d-flex flex-column justify-content-center align-items-center text-center h-100">
+        <h1 class="display-3 fw-bold text-uppercase hero-title">Justice.<br><span class="text-highlight">Power.</span><br>Protection.</h1>
+        <p class="lead hero-subtext">Over 150 years of combined legal expertise on your side.</p>
+        <a href="#services" class="btn btn-warning btn-lg px-5 py-3 hero-btn">OUR SERVICES</a>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="carousel-item position-relative">
+      <img src="https://t4.ftcdn.net/jpg/04/96/55/43/360_F_496554310_1squir9vawoqmr5kN1AuLvh2zFExAxo1.jpg" class="d-block w-100 hero-img">
+      <div class="overlay"></div> <!-- Overlay added here -->
+      <div class="carousel-caption d-flex flex-column justify-content-center align-items-center text-center h-100">
+        <h1 class="display-3 fw-bold text-uppercase hero-title">Protecting What Matters<br><span class="text-highlight">Most</span></h1>
+        <p class="lead hero-subtext">Strategic legal solutions tailored to your needs.</p>
+        <a href="#about" class="btn btn-warning btn-lg px-5 py-3 hero-btn">LEARN MORE</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+<!-- --About section -->
+<section id="about" class="py-5" style="background-color: #f8f9fa;">
+    <div class="container">
+      <div class="row align-items-center">
+  
+        <!-- Image Column -->
+        <div class="col-md-6 mb-4 mb-md-0">
+          <img src="https://flixpress.com/wp-content/uploads/2024/05/unnamed.jpg" alt="Law Office" class="img-fluid rounded-4 shadow-lg">
+        </div>
+  
+        <!-- Text Column -->
+        <div class="col-md-6">
+          <h2 class="text-uppercase fw-bold mb-4 text-dark">About Our Firm</h2>
+          <p class="lead text-muted">
+            With over three decades of experience, we’ve built a legacy of success in personal injury, criminal defense, and family law. Our firm blends deep legal expertise with a fierce commitment to justice.
+          </p>
+          <p class="text-muted">
+            Every client is more than just a case — they are a cause worth fighting for. We pride ourselves on aggressive representation, compassionate counsel, and strategic advocacy tailored to your specific needs.
+          </p>
+          <a href="#contact" class="btn btn-warning mt-3 px-4 py-2 rounded-pill fw-semibold">Book a Consultation</a>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  <!-- Thought section -->
+  <section id="thought" class="py-5 text-center text-white" style="background-image: url('https://images.squarespace-cdn.com/content/v1/667dcabb85e0e96c7fb1b616/b13595e3-e2af-42ee-8fa1-72da47d75d64/law-background.jpg'); background-size: cover; background-position: center;">
+    <div class="container py-5">
+      <h2 class="fw-bold mb-4">
+        <span style="color: #734905;">Fighting for Justice, Securing Your Future:</span> Trusted Advocates for Personal Injury Victims
+      </h2>
+      <p class="fs-5">
+        We are dedicated to protecting your rights and ensuring that you get the justice you deserve. With years of experience and a passion for helping our clients, we’re here to guide you through every step of the legal process.
+      </p>
+    </div>
+  </section>
+  
+  <!-- type of cases -->
+  <section id="practice-areas" class="py-5 bg-white">
+    <div class="container text-center">
+      <h2 class="fw-bold text-dark mb-5">Practice Areas</h2>
+      <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-4">
+  
+        <!-- Vehicle Accidents (Car & Truck) -->
+        <div class="col">
+          <div class="card border-0 h-100 shadow-sm p-4">
+            <img src="https://www.lohud.com/gcdn/authoring/authoring-images/2024/06/09/PWES/74034458007-imag-0108.JPG?width=700&height=468&fit=crop&format=pjpg&auto=webp" class="mb-3" style="width:100%; height:120px; object-fit: cover;">
+            <h5 class="fw-bold ">Vehicle Accidents</h5>
+            <p class="text-muted small">Injured in a vehicle crash? We help you recover damages and secure justice.</p>
+          </div>
+        </div>
+  
+        <!-- Wrongful Death -->
+        <div class="col">
+          <div class="card border-0 h-100 shadow-sm p-4">
+            <img src="https://media.istockphoto.com/id/1007950266/photo/wrongful-death-report-and-gavel-in-a-court.jpg?s=612x612&w=0&k=20&c=Aai73FKUH7QT3Y88Z22SemrpW7eblQKClXVQ5Kajm94="  class="mb-3" style="width:100%; height:120px; object-fit: cover;">
+            <h5 class="fw-bold ">Wrongful Death</h5>
+            <p class="text-muted small">If negligence caused your loved one’s death, we pursue justice and compensation.</p>
+          </div>
+        </div>
+  
+        <!-- Construction Accidents -->
+        <div class="col">
+          <div class="card border-0 h-100 shadow-sm p-4">
+            <img src="https://png.pngtree.com/thumb_back/fh260/background/20240611/pngtree-construction-workers-signing-off-high-risk-working-at-heights-permit-image_15747843.jpg" class="mb-3" style="width:100%; height:120px; object-fit: cover;">
+            <h5 class="fw-bold ">Construction Accidents</h5>
+            <p class="text-muted small">Injured on a job site? We hold negligent employers accountable.</p>
+          </div>
+        </div>
+  
+        <!-- Medical Malpractice -->
+        <div class="col">
+          <div class="card border-0 h-100 shadow-sm p-4">
+            <img src= "https://cdn-bkfkl.nitrocdn.com/nwJHCWsWzlQOsXiNutFbvLVVQgAreevd/assets/images/optimized/rev-d991387/www.fightingforyou.com/wp-content/uploads/2020/12/medical-malpractice-scaled-1.jpg" class="mb-3" style="width:100%; height:120px; object-fit: cover;">
+            <h5 class="fw-bold">Medical Malpractice</h5>
+            <p class="text-muted small">Negligent care? We fight for victims of medical errors and misdiagnosis.</p>
+          </div>
+        </div>
+  
+        <!-- Defective Drugs -->
+        <div class="col">
+          <div class="card border-0 h-100 shadow-sm p-4">
+            <img src="https://synergysobrietysolutions.com/wp-content/uploads/2024/01/Heroin-Track-Marks-and-Indicators-What-You-Need-To-Know.jpg"  class="mb-3" style="width:100%; height:120px; object-fit: cover;">
+            <h5 class="fw-bold">Defective Drugs</h5>
+            <p class="text-muted small">Harmed by medication? We hold manufacturers responsible.</p>
+          </div>
+        </div>
+  
+        <!-- Employment Discrimination -->
+        <div class="col">
+          <div class="card border-0 h-100 shadow-sm p-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5j3n31KTwyxlWTS3pJCCTXYWNl4AsRo7SB3oIgScAofAViGnJD1bw-v7l1JJOHn1_3hE&usqp=CAU"  class="mb-3" style="width:100%; height:120px; object-fit: cover;">
+            <h5 class="fw-bold ">Employment Discrimination</h5>
+            <p class="text-muted small">Facing unfair treatment at work? We protect your workplace rights.</p>
+          </div>
+        </div>
+  
+        <!-- Commercial Litigation -->
+        <div class="col">
+          <div class="card border-0 h-100 shadow-sm p-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe4FD4ivpxm16p29Q38rwlIQXFFJA8jSwcrsuoOmtR1h0hMmxaT9uZABiRq0Q6YZ5Xi-k&usqp=CAU"  class="mb-3" style="width:100%; height:120px; object-fit: cover;">
+            <h5 class="fw-bold">Commercial Litigation</h5>
+            <p class="text-muted small">Resolving business disputes and contractual issues efficiently.</p>
+          </div>
+        </div>
+        <!-- Sexual Harassment -->
+        <div class="col">
+          <div class="card border-0 h-100 shadow-sm p-4">
+            <img src="https://res.cloudinary.com/people-matters/image/upload/fl_immutable_cache,w_624,h_351,q_auto,f_auto/v1665147233/1665147231.jpg" class="mb-3" style="width:100%; height:120px; object-fit: cover;">
+            <h5 class="fw-bold ">Sexual Harassment</h5>
+            <p class="text-muted small">Holding perpetrators accountable and securing justice.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Team section -->
+  <section id="legal-team-section" class="py-5 text-center" style="background-image: url('https://www.ejhlawcorp.com/wp-content/uploads/2018/08/1.jpg'); background-size: cover; background-position: center;">
+    <div class="overlay">
+      <!-- Quote Section -->
+      <div class="container">
+        <h2 class="fw-bold text-white mb-4">We Don’t Settle for Less – We Fight for <span style="color: #fba822;">Maximum Compensation</span>  </h2>
+        <p class=" fs-5 mb-5" style="color: aliceblue;">Injured? Don’t Wait. Call Us Now.</p>
+      </div>
+      <!-- Our Legal Team Section -->
+      <div class="container">
+        <h2 class="fw-bold  mb-5" style="color: #ffffff;">Our Legal Team</h2>
+        <div class="row justify-content-center g-4">
+          <!-- Team Member 1 -->
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="card team-card h-100 text-center border-0 shadow-sm">
+              <img src="team-member-image-1.jpg" class="card-img-top rounded-circle mx-auto mt-4" alt="Adv. Rohan Deshmukh" style="width:100px; height:100px; object-fit:cover; border: 3px solid #FCA311;">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Adv. Rohan Deshmukh</h5>
+                <p class="card-subtitle mb-2 text-muted">Senior Criminal Lawyer</p>
+                <p class="card-text small text-muted px-3">Over 15 years defending clients in high-stakes criminal trials and securing acquittals.</p>
+              </div>
+              <div class="card-footer bg-transparent border-0 mb-4">
+                <a href="https://www.linkedin.com" class="me-3"><i class="bi bi-linkedin"></i></a>
+                <a href="mailto:email@example.com"><i class="bi bi-envelope-fill"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- Team Member 2 -->
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="card team-card h-100 text-center border-0 shadow-sm">
+              <img src="team-member-image-2.jpg" class="card-img-top rounded-circle mx-auto mt-4" alt="Adv. Priya Sharma" style="width:100px; height:100px; object-fit:cover; border: 3px solid #FCA311;">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Adv. Priya Sharma</h5>
+                <p class="card-subtitle mb-2 text-muted">Family Law Specialist</p>
+                <p class="card-text small text-muted px-3">Dedicated to guiding families through divorce, custody, and domestic matters with compassion.</p>
+              </div>
+              <div class="card-footer bg-transparent border-0 mb-4">
+                <a href="https://www.linkedin.com" class="me-3"><i class="bi bi-linkedin"></i></a>
+                <a href="mailto:email@example.com"><i class="bi bi-envelope-fill"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- Team Member 3 -->
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="card team-card h-100 text-center border-0 shadow-sm">
+              <img src="team-member-image-3.jpg" class="card-img-top rounded-circle mx-auto mt-4" alt="Adv. Karan Joshi" style="width:100px; height:100px; object-fit:cover; border: 3px solid #FCA311;">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Adv. Karan Joshi</h5>
+                <p class="card-subtitle mb-2 text-muted">Corporate Legal Advisor</p>
+                <p class="card-text small text-muted px-3">Expert in business law, M&A, and corporate compliance for startups and enterprises.</p>
+              </div>
+              <div class="card-footer bg-transparent border-0 mb-4">
+                <a href="https://www.linkedin.com" class="me-3"><i class="bi bi-linkedin"></i></a>
+                <a href="mailto:email@example.com"><i class="bi bi-envelope-fill"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- Team Member 4 -->
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="card team-card h-100 text-center border-0 shadow-sm">
+              <img src="team-member-image-4.jpg" class="card-img-top rounded-circle mx-auto mt-4" alt="Adv. Neha Kapoor" style="width:100px; height:100px; object-fit:cover; border: 3px solid #FCA311;">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Adv. Neha Kapoor</h5>
+                <p class="card-subtitle mb-2 text-muted">Personal Injury Attorney</p>
+                <p class="card-text small text-muted px-3">Securing maximum compensation for accident victims with empathy and aggressive representation.</p>
+              </div>
+              <div class="card-footer bg-transparent border-0 mb-4">
+                <a href="https://www.linkedin.com" class="me-3"><i class="bi bi-linkedin"></i></a>
+                <a href="mailto:email@example.com"><i class="bi bi-envelope-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- aceivements -->
+   <cards></cards>
+</body>
+
+</html>
